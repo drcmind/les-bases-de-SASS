@@ -1,0 +1,15 @@
+%flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+%flex-align-center-space-between {
+  @extend %flex-align-center;
+  justify-content: space-between;
+}
+
+%btn-input-style {
+  @extend %flex-align-center;
+  padding: 0.7rem;
+  border-radius: 4px;
+}
